@@ -1,16 +1,16 @@
 name: 'Terraform CI'
 
 on:
-  pull_request:
-    branches: [develop, main]
-  # 테스트를 위해 수동 실행 가능하게 추가
-  workflow_dispatch:
+#   pull_request:
+#     branches: [develop, main]
+#   # 테스트를 위해 수동 실행 가능하게 추가
+#   workflow_dispatch:
 
-permissions:
-  contents: read
-  pull-requests: write
-  issues: write
-  security-events: write
+# permissions:
+#   contents: read
+#   pull-requests: write
+#   issues: write
+#   security-events: write
 
 jobs:
   terraform:

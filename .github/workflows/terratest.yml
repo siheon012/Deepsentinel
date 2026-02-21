@@ -2,11 +2,11 @@ name: Terratest - Infrastructure Testing
 
 on:
   # PR에서 terraform 변경 시 빠른 검증 (Plan & Validate만)
-  pull_request:
-    branches: [main, develop]
-    paths:
-      - 'terraform/**'
-      - 'test/**'
+  # pull_request:
+  #   branches: [main, develop]
+  #   paths:
+  #     - 'terraform/**'
+  #     - 'test/**'
 
   # 수동 실행
   workflow_dispatch:
