@@ -1,11 +1,11 @@
 name: Infracost FinOps Check
 
-# ⛔ DISABLED - terraform destroy 준비 중
-on: []
-# on:
-#   pull_request:
-#     paths:
-#       - 'terraform/**'
+# ⛔ DISABLED - terraform destroy 준비 중 (workflow_dispatch만 활성화)
+on:
+  # pull_request:
+  #   paths:
+  #     - 'terraform/**'
+  workflow_dispatch:
 
 permissions:
   contents: read
