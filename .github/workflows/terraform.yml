@@ -1,10 +1,10 @@
 name: 'Terraform CI'
 
+# ⛔ DISABLED - terraform destroy 준비 중 (workflow_dispatch만 활성화)
 on:
-#   pull_request:
-#     branches: [develop, main]
-#   # 테스트를 위해 수동 실행 가능하게 추가
-#   workflow_dispatch:
+  # pull_request:
+  #   branches: [develop, main]
+  workflow_dispatch:
 
 # permissions:
 #   contents: read
