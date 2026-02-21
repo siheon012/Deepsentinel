@@ -224,3 +224,6 @@ packer/*.key
 # Backup files
 packer/*.backup
 packer/*~
+
+
+memi/
